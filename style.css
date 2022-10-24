@@ -2,6 +2,21 @@
     margin: 0;
     padding: 0;
 }
+body {
+    display: flex;
+    justify-content: center;
+}
+header {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 1;
+        height: 70px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+}
+
 .titulo {
     display: flex;
     align-items: center;
@@ -11,16 +26,24 @@
     height: 50px;
 }
 .imagens {
-    margin: auto;
+    height: auto;
+    margin-top: 70px;
     background-color: #3e2815;
-    height: 1080px;
     width: 1080px;
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: center;
+    gap: 18px;
+    padding: 18px 0;
 }
 .imagem {
     height: 330px;
-    width: 338px;
-    margin: 14px;
+    width: 335px;
+}
+
+@media (max-width: 340px) {
+    .imagem {
+        height: 280px;
+        width: 285px;
+    }
 }
