@@ -39,6 +39,7 @@ header {
 .imagem {
     height: 330px;
     width: 335px;
+<<<<<<< HEAD
 }
 
 @media (max-width: 340px) {
@@ -46,4 +47,7 @@ header {
         height: 280px;
         width: 285px;
     }
+=======
+    margin: 12px;
+>>>>>>> 36caabe76d46cf377b7121d9e7056eabd8c71914
 }
