@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo {
+    height: 50px;
+}
+.imagens {
+    margin: auto;
+    background-color: #3e2815;
+    height: 1080px;
+    width: 1080px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.imagem {
+    height: 330px;
+    width: 338px;
+    margin: 14px;
+}
